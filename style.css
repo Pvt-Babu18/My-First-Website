@@ -59,7 +59,7 @@ h3 {
   font-style: var(bold);
 }
 .background {
-  background: rgba(0, 0, 0, 0.8) url("/IMG/another.jpg");
+  background: rgba(0, 0, 0, 0.8) url("another.jpg");
   background-size: cover;
   background-blend-mode: normal;
 }
