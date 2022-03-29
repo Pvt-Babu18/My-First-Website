@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>i-ZecoWeb</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>e-zecWEB</title>
   </head>
   <body>
-    <nav class="navbar background">
-      <ul class="nav-list">
-        <div class="logo"><img src="IMG/hacker.jpg" alt="logo" /></div>
+    <nav class="navbar background h-nav-resp">
+      <ul class="nav-list v-class-resp">
+        <div class="logo"><img src="hacker.jpg" alt="logo" /></div>
         <li><a href="#home">Home</a></li>
         <li><a href="#MyTeam">My Team</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#Contact-us">Contact Us</a></li>
       </ul>
-      <div class="rightnav">
+      <div class="rightnav v-class-resp">
         <input type="text" name="search" id="search" />
         <button class="btn btn-sm">Search</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
     </nav>
     <section class="background firstsection" id="home">
@@ -45,17 +50,16 @@
             hardware and software.
           </p>
           <div class="buttons">
-            <button class="btn">Sign Up For Studies Materials</button>
-            <button class="btn">Our Study Page</button>
+            <button class="btn">
+              <a href="index.html" target="blank">Signup To Get The Acess To Our Study Materials</a>
+            </button>
+            <button class="btn">
+              <a href="notes.html" target="blank">Our Study Materials</a>
+            </button>
           </div>
         </div>
         <div class="secondhalf">
-          <img
-            src="lapptoops.jpg"
-            width="150"
-            height="150"
-            alt="Background"
-          />
+          <img src="lapptoops.jpg" width="150" height="150" alt="Background" />
         </div>
         <div class="secondhalf"></div>
       </div>
@@ -74,13 +78,7 @@
         </p>
       </div>
       <div class="thumbnail">
-        <img
-          src="Babu.jpg"
-          alt=""
-          width="200"
-          height="200"
-          class="imgfluid"
-        />
+        <img src="Babu.jpg" alt="" width="200" height="200" class="imgfluid" />
       </div>
     </section>
 
@@ -98,13 +96,7 @@
         </p>
       </div>
       <div class="thumbnail">
-        <img
-          src="Sammy.jpg"
-          alt=""
-          width="200"
-          height="200"
-          class="imgfluid"
-        />
+        <img src="Sammy.jpg" alt="" width="200" height="200" class="imgfluid" />
       </div>
     </section>
     <section class="secright">
@@ -167,7 +159,7 @@
       </div>
     </section>
     <footer>
-     <p align="center"> Copyright 2022 @ All rights reserved.</p>
+      <p align="center">Copyright 2022 @ All rights reserved.</p>
     </footer>
   </body>
 </html>
